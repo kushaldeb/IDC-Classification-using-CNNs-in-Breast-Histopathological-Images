@@ -17,8 +17,8 @@ dir_dict = {'Training':50000,
             'Validation':5000,
             'Testing':500}
 
-src_base = '/home/kushaldeb/D/8th Semester/Breast Cancer Classification/Dataset/'
-dst_base = '/home/kushaldeb/D/8th Semester/Breast Cancer Classification/sample_dataset/'
+src_base = '/home/kushaldeb/D/8th-Semester/Breast-Cancer-Classification/Dataset/'
+dst_base = '/home/kushaldeb/D/8th-Semester/Breast-Cancer-Classification/sample_dataset/'
 
 for i in tqdm(dir_list):
     for j in subdir_list:
